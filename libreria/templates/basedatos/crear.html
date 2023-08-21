@@ -1,0 +1,23 @@
+{% extends "plantilla.html" %}
+
+
+{% block titulo %} CREAR NUEVO USUSARIO {% endblock %}
+Seccion de titulo
+{% block contenido %}
+
+<div class="card">
+    <div class="card-header">
+        Crear un usuario
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Datos de usuario</h4>
+        {% include 'basedatos/formulario.html' %}
+        <p class="card-text">Text</p>
+    </div>
+    <div class="card-footer text-muted">
+        
+    </div>
+</div>
+
+
+{% endblock %}

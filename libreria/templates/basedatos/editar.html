@@ -1,0 +1,19 @@
+{% extends "plantilla.html" %}
+
+
+{% block titulo %} EDITAR NUEVO USUSARIO {% endblock %}
+Seccion de titulo
+{% block contenido %}
+<div class="card">
+    <div class="card-header">
+        Editar usuario
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Title</h4>
+        {% include 'basedatos/formulario.html' %}
+    </div>
+    <div class="card-footer text-muted">
+        Footer
+    </div>
+</div>
+{% endblock %}
